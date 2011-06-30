@@ -8,7 +8,7 @@
         src: url(/fonts/league_gothic.otf);
       }
 
-      h1, h2, .dockyard  {
+      h1, h2, a.dockyard  {
         font-family: LeagueGothic;
         color: #005a7c;
       }
@@ -21,7 +21,8 @@
         letter-spacing: 0.075em;
         font-size: 2em;
       }
-      span.dockyard {
+      a.dockyard {
+        text-decoration: none;
         font-size: 1.5em;
         font-weight: bold;
         letter-spacing: 0.05em;
@@ -36,7 +37,7 @@
         font-family: proxima-nova-1, proxima-nova-2, "Helvetica Neue", Helvetica, sans-serif;
         color: #555;
       }
-      div#footer a {
+      div#footer p.twitter a {
         text-decoration: none;
         font-family: "Helvetica Neue", Helvetica;
         color: #cccccc;
@@ -65,13 +66,13 @@
     <div id="content">
       <h1>Startup Sailing</h1>
       <h2>coming soon...</h2>
-      <p>We're going to start in Boston Harbot, sail up to Marblehead. Stay there for the night, then sail back the next day.</p>
+      <p>We're going to start in Boston Harbor and sail up to Marblehead. We'll stay for the night and sail back the next day.</p>
       <p>Get to know many of the other startup folks in Boston and participate in the best damn startup event you'll ever go to.</p>
       <p>More details to come...</p>
     </div>
     <div id="footer">
-      <p><a href="http://twitter.com/startupsailing" target="_blank">Follow on Twitter</a><p>
-      <p class="sponsor">Sponsored by <span class="dockyard">DockYard</span></p>
+      <p class="twitter"><a href="http://twitter.com/startupsailing" target="_blank">Follow on Twitter</a><p>
+      <p class="sponsor">Sponsored by <a href="http://dockyard.com" class="dockyard" target="_blank">DockYard</a></p>
     </div>
   </body>
 </html>
